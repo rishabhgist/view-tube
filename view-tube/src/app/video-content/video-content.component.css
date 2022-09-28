@@ -1,0 +1,45 @@
+.card {
+    width: 260px;
+    height: 320px;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    box-shadow: 0px 2px 1px 1px lightblue;
+    padding-bottom: 5px;
+}
+
+.video-details {
+    padding: 5px;
+}
+
+.card img{
+    height: 150px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.card h5{
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: .25px;
+    font-weight: 500;
+    font-size: 1em;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+#duration {
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    top: -10%;
+    left: 80%;
+    z-index: 1;
+    width: 25px;
+    /* height: 20px; */
+    /* text-align: right; */
+    padding: 1px 6px;
+}
+

@@ -1,0 +1,16 @@
+/* mat-chip {
+    font-size: small;
+    font-weight: 300;
+} */
+
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin: 5px;
+    background-color: teal;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}

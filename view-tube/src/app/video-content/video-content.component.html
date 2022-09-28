@@ -1,0 +1,11 @@
+<div class="card" *ngFor="let video of video$ ">
+      <a href="#">
+        <img [src]="video.snippet.thumbnails.medium.url">
+      </a>
+      <div id="duration">{{ video.contentDetails.length }}</div>
+      <div class="video-details">
+        <h5>{{ video.snippet.title }}</h5>
+        <p>{{ video.snippet.channelTitle }}</p>
+        <p>{{ video.statistics.viewCount }} views . {{ video.snippet.relativeTime }}</p>
+      </div>
+</div>
