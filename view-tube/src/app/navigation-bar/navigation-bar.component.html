@@ -20,7 +20,23 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>view-tube</span>
+      <div id="header">
+            <div id="title-block">
+                  <a id="home-link" href="/">
+                    <h1>ViewTube</h1>
+                    </a>
+              </div>
+            <div id="search">
+                  <input type="text" name="searchquery" id="searchquery">
+                  <button>search</button>
+              </div>
+            <div id="navbar">
+                  <button>Notifications</button>
+                  <button>Video Call</button>
+                  <button>Apps</button>
+              </div>
+      </div>
+
     </mat-toolbar>
     <!-- Add Content Here -->
   </mat-sidenav-content>
