@@ -40,13 +40,24 @@
                     </a>
               </div>
             <div id="search">
-                  <input type="text" name="searchquery" id="searchquery">
-                  <button>search</button>
+                  <mat-form-field>
+                    <input matInput type="text" name="searchquery" id="searchquery">
+                    <button mat-icon-button>
+                      <mat-icon class="icon">search</mat-icon>
+                      </button>
+                </mat-form-field>
               </div>
             <div id="navbar">
-                  <button>Notifications</button>
-                  <button>Video Call</button>
-                  <button>Apps</button>
+              <button mat-icon-button matTooltip="Notifications">
+                    <mat-icon class="icon">notifications</mat-icon>
+                </button>
+              <button mat-icon-button matTooltip="Create Video">
+                    <mat-icon class="icon">video_call</mat-icon>
+                </button>
+              <button mat-icon-button matTooltip="Apps">
+                    <mat-icon class="icon">apps</mat-icon>
+                </button>
+
               </div>
       </div>
 

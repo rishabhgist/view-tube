@@ -37,3 +37,7 @@
 .icon {
           margin-right: 10px;
 }
+#home-link {
+      text-decoration: none;
+      color: whitesmoke;
+}
