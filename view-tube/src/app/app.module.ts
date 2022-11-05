@@ -14,7 +14,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-
+import { MatChipsModule } from '@angular/material/chips';
 
 
 @NgModule({
@@ -34,7 +34,8 @@ import { MatInputModule } from '@angular/material/input';
     MatIconModule,
     MatListModule,
     MatFormFieldModule, 
-    MatInputModule
+    MatInputModule, 
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
